@@ -3,7 +3,7 @@ import { ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function ProductPage({ params }: { params: { id: string } }) {
+export default function ProductPage({ params }: { params: { id: string | number } }) {
 	const product = getProductById(params.id)
 
 	if (!product) {
