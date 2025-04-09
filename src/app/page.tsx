@@ -70,7 +70,7 @@ const products = [
 export default function Home() {
 	const [visible, setVisible] = useState(true)
 	const [hide, setHide] = useState(false)
-
+  
 	useEffect(() => {
 		setTimeout(() => {
 			setHide(true)
@@ -410,13 +410,13 @@ export default function Home() {
 									reserved.
 								</p>
 								<div className='flex justify-center space-x-6 mt-4'>
-									<Link href='/privacy' className='hover:text-white'>
+									<Link href='/' className='hover:text-white'>
 										Privacy Policy
 									</Link>
-									<Link href='/terms' className='hover:text-white'>
+									<Link href='/' className='hover:text-white'>
 										Terms of Service
 									</Link>
-									<Link href='/refund' className='hover:text-white'>
+									<Link href='/' className='hover:text-white'>
 										Refund Policy
 									</Link>
 								</div>
