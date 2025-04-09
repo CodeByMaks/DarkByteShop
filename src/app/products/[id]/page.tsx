@@ -1,10 +1,14 @@
+'use client'
 import { getProductById } from '@/components/getbyid'
 import { ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useParams } from 'next/navigation'
 
-export default function ProductPage({ params }: { params: { id: string | number } }) {
-	const product = getProductById(params.id)
+
+export default function ProductPage() {
+	const params = useParams()
+	const product = getProductById(params.id  as string)
 
 	if (!product) {
 		return (
