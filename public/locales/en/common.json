@@ -1,0 +1,125 @@
+{
+	"header": {
+	  "title": "DarkByteShop",
+	  "home": "Home",
+	  "about": "About us"
+	},
+	"hero": {
+	  "title": "Cybersecurity Tools & Resources",
+	  "description": "Professional-grade security tools for ethical hackers, penetration testers, and security researchers.",
+	  "browse": "Browse Tools",
+	  "learn": "Learn More"
+	},
+	"categories": "Categories",
+	"products": {
+	  "featured": "Featured Products",
+	  "addToCart": "Add to Cart"
+	},
+	"whyChoose": {
+	  "title": "Why Choose DarkByteShop?",
+	  "security": "Trusted Security",
+	  "securityDesc": "All tools are verified and tested by security professionals.",
+	  "delivery": "Fast Delivery",
+	  "deliveryDesc": "Instant digital delivery for all our software products.",
+	  "support": "24/7 Support",
+	  "supportDesc": "Technical assistance available around the clock."
+	},
+	"footer": {
+	  "description": "Your trusted source for cybersecurity tools and resources for ethical hacking and penetration testing.",
+	  "quickLinks": "Quick Links",
+	  "categories": "Categories",
+	  "contact": "Contact Us",
+	  "privacy": "Privacy Policy",
+	  "terms": "Terms of Service",
+	  "refund": "Refund Policy",
+	  "copyright": "© {{year}} DarkByteShop. All rights reserved."
+	},
+	"About": {
+		"about": {
+		  "header": {
+			 "title": "About DarkByteShop",
+			 "description": "We're a team of cybersecurity experts dedicated to providing high-quality security tools and resources for ethical hackers, penetration testers, and security researchers."
+		  },
+		  "mission": {
+			 "title": "Our Mission",
+			 "content1": "At DarkByteShop, our mission is to empower cybersecurity professionals with the tools they need to protect digital infrastructures against evolving threats. We believe in ethical hacking as a means to strengthen security systems and prevent malicious attacks.",
+			 "content2": "We curate and develop high-quality security tools that are reliable, effective, and accessible to professionals at all levels. Our commitment to the cybersecurity community extends beyond just selling products – we're dedicated to education, awareness, and the advancement of security practices.",
+			 "content3": "By providing cutting-edge tools and resources, we aim to contribute to a safer digital world where organizations can protect their assets and individuals can safeguard their privacy."
+		  },
+		  "values": {
+			 "title": "Our Values",
+			 "ethical": {
+				"title": "Ethical Practices",
+				"desc": "We promote responsible security testing and ethical hacking principles."
+			 },
+			 "quality": {
+				"title": "Quality & Reliability",
+				"desc": "Every tool we offer is thoroughly tested and verified by security experts."
+			 },
+			 "knowledge": {
+				"title": "Knowledge Sharing",
+				"desc": "We believe in educating and empowering the cybersecurity community."
+			 },
+			 "innovation": {
+				"title": "Innovation",
+				"desc": "We continuously evolve our offerings to address emerging security challenges."
+			 }
+		  },
+		  "story": {
+			 "title": "Our Story",
+			 "2018": {
+				"title": "The Beginning",
+				"desc": "DarkByteShop was founded by a group of cybersecurity professionals who saw a need for reliable, well-documented security tools. What started as a small collection of custom-built tools quickly gained attention in the security community."
+			 },
+			 "2020": {
+				"title": "Expansion",
+				"desc": "We expanded our product line to include comprehensive security suites and specialized tools for network penetration testing, vulnerability assessment, and digital forensics. Our team grew to include experts from various cybersecurity domains."
+			 },
+			 "2022": {
+				"title": "Global Recognition",
+				"desc": "DarkByteShop gained international recognition for our innovative security solutions. We launched our educational platform, offering courses and certifications for security professionals. Our tools are now used by organizations and security teams worldwide."
+			 },
+			 "today": {
+				"title": "Leading the Industry",
+				"desc": "Today, DarkByteShop continues to lead the industry with cutting-edge security solutions. We're committed to staying ahead of emerging threats and providing the tools needed to combat them. Our focus remains on quality, ethics, and empowering the security community."
+			 }
+		  },
+		  "testimonials": {
+			 "title": "What Our Clients Say",
+			 "items": [
+				{
+				  "quote": "DarkByteShop's tools have become an essential part of our security testing workflow. Their products are reliable, well-documented, and constantly updated.",
+				  "author": "David Chen",
+				  "position": "Security Director, TechSecure Inc."
+				},
+				{
+				  "quote": "As a security consultant, I rely on tools that I can trust. DarkByteShop delivers high-quality security solutions that have helped me identify vulnerabilities that other tools missed.",
+				  "author": "Sarah Williams",
+				  "position": "Independent Security Consultant"
+				},
+				{
+				  "quote": "The support team at DarkByteShop is exceptional. They're knowledgeable, responsive, and genuinely care about helping their customers succeed in their security efforts.",
+				  "author": "Michael Rodriguez",
+				  "position": "CISO, Global Finance Group"
+				}
+			 ]
+		  },
+		  "cta": {
+			 "title": "Ready to Enhance Your Security?",
+			 "desc": "Explore our range of cybersecurity tools and resources designed for professionals who take security seriously.",
+			 "products": "Browse Products",
+			 "contact": "Contact Us"
+		  }
+		},
+		"footer": {
+		  "description": "Your trusted source for cybersecurity tools and resources for ethical hacking and penetration testing.",
+		  "quickLinks": "Quick Links",
+		  "categories": "Categories",
+		  "contact": "Contact Us",
+		  "copyright": "© {{year}} DarkByteShop. All rights reserved.",
+		  "privacy": "Privacy Policy",
+		  "terms": "Terms of Service",
+		  "refund": "Refund Policy"
+		}
+	 }
+ }
