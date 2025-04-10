@@ -16,11 +16,11 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { Navigation, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
+import { Navigation, Pagination } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const products = [
 	{
@@ -70,7 +70,7 @@ const products = [
 export default function Home() {
 	const [visible, setVisible] = useState(true)
 	const [hide, setHide] = useState(false)
-  
+
 	useEffect(() => {
 		setTimeout(() => {
 			setHide(true)
@@ -82,13 +82,13 @@ export default function Home() {
 		<>
 			{hide && (
 				<>
-					<header className='w-[75%] m-auto py-5'>
+					<header className='md:w-[75%] m-auto py-5'>
 						<nav className='flex justify-between items-center'>
 							<div className='flex items-center'>
 								<Image src={icon} alt='' className='w-10 h-10' />
-								<p className='text-xl pt-3'>DarkByteShop</p>
+								<p className='text-xl md:pt-3 pt-0'>DarkByteShop</p>
 							</div>
-							<ul className='flex gap-10 text-xl'>
+							<ul className='flex md:gap-10 gap-5 text-xl'>
 								<li className='cursor-pointer text-red-500'>Home</li>
 								<li className='cursor-pointer hover:text-red-500'>
 									<Link href={'/about'}>About us</Link>
@@ -97,7 +97,7 @@ export default function Home() {
 						</nav>
 					</header>
 					<main>
-						<section className='w-[75%] m-auto py-8'>
+						<section className='md:w-[75%] m-auto py-8'>
 							<div className='bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 mb-12'>
 								<div className='flex flex-col md:flex-row items-center justify-between'>
 									<div className='md:w-1/2 mb-6 md:mb-0'>
@@ -138,22 +138,22 @@ export default function Home() {
 							</div>
 
 							<h2 className='text-4xl font-bold mb-4'>Categories</h2>
-							<ul className='flex flex-wrap justify-between text-center py-3 gap-4'>
-								<li className='border border-gray-500 w-[200px] py-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors'>
-									Kali Linux
-								</li>
-								<li className='border border-gray-500 w-[200px] p-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors'>
-									Network Tools
-								</li>
-								<li className='border border-gray-500 w-[200px] p-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors'>
-									Forensics
-								</li>
-								<li className='border border-gray-500 w-[200px] p-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors'>
-									Penetration Testing
-								</li>
-								<li className='border border-gray-500 w-[200px] p-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors'>
-									Security Courses
-								</li>
+							<ul className='flex flex-wrap justify-center sm:justify-between text-center py-3 gap-4'>
+								{[
+									'Kali Linux',
+									'Network Tools',
+									'Forensics',
+									'Penetration Testing',
+									'Security Courses',
+								].map((item, idx) => (
+									<li
+										key={idx}
+										className='border border-gray-500 w-full sm:w-[200px] py-3 rounded-2xl cursor-pointer hover:bg-red-600 hover:border-none hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-red-400'
+										tabIndex={0}
+									>
+										{item}
+									</li>
+								))}
 							</ul>
 						</section>
 
@@ -218,10 +218,10 @@ export default function Home() {
 						</section>
 
 						<section
-							className='w-[75%] m-auto py-8 mb-12 bg-no-repeat'
+							className='md:w-[75%] m-auto py-8 md:mb-12 bg-no-repeat'
 							style={{ backgroundImage: `url(${backImage.src})` }}
 						>
-							<div className='rounded-xl p-8'>
+							<div className='rounded-xl md:p-8'>
 								<h2 className='text-3xl font-bold mb-4 text-center'>
 									Why Choose DarkByteShop?
 								</h2>
@@ -243,7 +243,7 @@ export default function Home() {
 												/>
 											</svg>
 										</div>
-										<h3 className='text-xl font-semibold mb-2'>
+										<h3 className='text-xl font-semibold md:mb-2'>
 											Trusted Security
 										</h3>
 										<p>
@@ -251,7 +251,7 @@ export default function Home() {
 											professionals.
 										</p>
 									</div>
-									<div className='text-center p-4'>
+									<div className='md:block hidden text-center p-4'>
 										<div className='bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
@@ -275,7 +275,7 @@ export default function Home() {
 											Instant digital delivery for all our software products.
 										</p>
 									</div>
-									<div className='text-center p-4'>
+									<div className='md:block hidden text-center p-4'>
 										<div className='bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
